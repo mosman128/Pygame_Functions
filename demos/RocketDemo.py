@@ -1,7 +1,13 @@
 from pygame_functions import *
 
-screenSize(1000, 750)
-setBackgroundImage("images/stars.png")
+
+#screenSize(1000, 750)
+#setBackgroundImage("images/stars.png")
+
+
+screenSize(1280, 637)
+setBackgroundImage("images/trump.png")
+
 
 rocket = makeSprite("images/rocket1.png")
 addSpriteImage(rocket,"images/rocket2a.png")
